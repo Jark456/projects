@@ -8,7 +8,7 @@ Nykyinen versio sisältää laskurin, jolla voi leikkimielisesti laskea kuinka k
 
 **Ohjelman tarkoituksena** on, että se helpottaa käyttäjiä löytämään tietoa eri taivaankappaleista yksinkertaisesta tietokannasta.
 
-**Tekninen toteutus:** Java ja sen graafinen käyttöliittymäkirjasto Swing. Tietokannan toteutuksessa tullaan käyttämään SQL:llää
+**Tekninen toteutus:** Java SE 17 sekä Javan graafinen käyttöliittymäkirjasto Swing. Tietokannan toteutuksessa tullaan käyttämään SQL:lää
 
 **Projektin tila:** keskeneräinen, johtuen sen puuttuvista ominaisuuksista ja yleisistä parannuksista.
 
@@ -20,12 +20,13 @@ Tarkastellaan hieman yleisiä käyttöskenaarioita, mitä käyttäjän oletetaan
 
 Valitsee kohteen mihin haluaa matkustaa → Kirjoittaa tekstikenttään nopeutensa taivaankappaletta kohden km/h → Painaa ”Laske” -näppäintä, jolloin ilmestyy ponnahdusikkuna, jossa ilmoitetaan matkan kesto. 
 
+![Example screenshot](./img/kuva.jpg)
 
 **Käyttäjä haluaa tarkastella tietokannasta kohteita:** 
 
-Klikkaa ”planeetta-tietokanta”- painiketta →  avautuu uusi näkymä → Käyttäjä näkee taulukon kohteista ja voi tarkastella niitä selaamalla listaa → Käyttäjä valitsee kursorilla tietyn kohteen listasta → listan sivuun ilmestyy tarkempi kuvaus kohteesta.
+Klikkaa ”planeetta-tietokanta”- painiketta(kts. ylläoleva kuva) →  avautuu uusi näkymä → Käyttäjä näkee taulukon kohteista ja voi tarkastella niitä selaamalla listaa → Käyttäjä valitsee kursorilla tietyn kohteen listasta → listan sivuun ilmestyy tarkempi kuvaus kohteesta.
 
-
+![Example screenshot](./img/Screenshot1.png)
 
 
 ## Ominaisuudet: 
@@ -57,7 +58,9 @@ Ei vielä toteutusta
 
 **Parannukset koodin suhteen:** 
 
-Kun tietokantanäkymä toteutetaan, kohteet tehdään oliopohjaisiksi, jolloin tiedot haetaan tietokannasta.
+Kun tietokantanäkymä toteutetaan, kohteet tehdään oliopohjaisiksi, jolloin tiedot esimerkiksi laskuriin, haetaan tietokannasta.
+
+
 
 
 
