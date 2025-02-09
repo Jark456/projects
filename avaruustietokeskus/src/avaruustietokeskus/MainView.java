@@ -223,7 +223,9 @@ public class MainView extends JFrame{
 //	   
 	    tietoKanPanel.add(Box.createRigidArea(new Dimension(25, 100)));
 	    tietoKanPanel.add(planlista);
-	    
+
+
+	     cardPanel.add(tietoKanPanel, TIETOKANTAPANEL);
 	}	
 	
 	private static void cardPanel() {
